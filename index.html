@@ -1,0 +1,40 @@
+<!--Aqui falamos ao navegador que estamos usando HMTL-->> 
+<!DOCTYPE html>
+<!--Agora informamos a língua--> 
+<html lang="pt">
+<!--seguimos com a estrutura--> 
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora Simples</title>
+        <!-- agora vou importar uma fonte do google, conforme este tutorial: https://www.webfx.com/blog/web-design/google-font-api-guide/ --> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <!--também importamos o arquivo css--> 
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+         <!-- usarei uma série de <div> para dividir o conteúdo. Isso tudo será estilizado pelo arquivo css que importamos a pouco -->
+            <div class="calculadora">
+                <div class="calc-container">
+                    <div class="output">
+                        <div class="operacao">
+                            <div class="valor"></div>
+                        </div>
+                        <div class="resultado">
+                            <div class="valor">0</div>
+                        </div>
+                    </div>
+                    <div class="input">
+                        
+                    </div>
+                </div>
+            </div>    
+        <!--agora informo que usaremos o JavaScript--> 
+        <script src="calculator.js"></script>
+            
+
+    </body>
+
+</html>
